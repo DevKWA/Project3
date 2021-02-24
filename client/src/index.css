@@ -1,13 +1,425 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  display: block;
+  text-align:left;
+  background: url(images/Origins-emblem.png) fixed;
+  background-position: 825px 160px;
+  background-size: 300px 300px;
+  background-color: rgb(8,8,8);
+  background-repeat: no-repeat;
+  max-width: 99%;
+  
+  color:darkred;
+  font-family: 'Assassin$',BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    font-size: 28px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 25px;
+  font-weight: 900;
+  
+}
+
+
+.TG{
+  font-size: 32px;
+  color: darkred;
+  text-decoration: none;
+  padding: px;
+}
+
+.AI{
+  font-size: 32px;
+  color: darkred;
+  padding: px;
+  text-decoration: none;
+  
+ 
+}
+
+
+ul{
+  list-style-type: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face{
+  font-family: 'Assassin$.ttf';
+  src: local('Assassin$.ttf'),
+  url(./fonts/Assassin$.ttf),
+  format('truetype');
+}
+
+h1{
+  display:block;
+  text-align: center;
+  margin: 0;
+  top: 0px;
+  text-decoration: none;
+  position: fixed;
+  left: 790px;
+  top: 145px;
+
+  
+  
+}
+
+
+h2{
+margin: 0px;
+
+
+}
+
+.img{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: relative;
+  left: 0px;
+  top: 10px;
+  
+ 
+  
+}
+.img:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img2{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 140px;
+  top: 240px;
+  
+  
+}
+.img2:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img3{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 280px;
+  top: 280px;
+ 
+  
+}
+.img3:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img4{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 480px;
+  top: 320px;
+
+  
+}
+.img4:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img5{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 640px;
+  top: 360px;
+ 
+  
+}
+.img5:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+
+.img6{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 780px;
+  top: 450px;
+ 
+  
+}
+.img6:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img7{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 980px;
+  top: 450px;
+ 
+  
+}
+.img7:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img8{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 1100px;
+  top: 380px;
+  
+}
+.img8:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img9{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 1220px;
+  top: 340px;
+ 
+  
+}
+.img9:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+
+.img10{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 1380px;
+  top: 300px;
+  
+
+ 
+  
+}
+.img10:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img11{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 1540px;
+  top: 260px;
+ 
+  
+}
+.img11:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.img12{
+  cursor: pointer;
+  transition: .3 ease-in-out;
+  position: absolute;
+  left: 1740px;
+  top: 220px;
+ 
+  
+}
+.img12:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+  
+}
+
+
+.Assassins-Creed-Characters{
+  color: whitesmoke;
+  text-align: left;
+  position: absolute;
+  
+}
+
+button.editB{
+  font-family: 'Assassin$';
+  font-size: 22px;
+  font-weight: 800;
+  border: solid darkred;
+  border-radius: 6px;
+  position: relative;
+  margin: auto;
+  top: 35px;
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+input.submitB{
+  font-family: 'Assassin$';
+  font-size: 22px;
+  font-weight: 800;
+  border: solid darkred;
+  border-radius: 6px;
+  position: relative;
+  margin: auto;
+  top: 1px;
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+
+button.deleteB{
+  font-family: 'Assassin$';
+  font-size: 22px;
+  font-weight: 800;
+  border: solid darkred;
+  border-radius: 6px;
+  position: relative;
+  margin: 0;
+  left: 140px;
+  top: 90px;
+  background-color: transparent;
+  color:whitesmoke;
+  cursor: pointer;
+}
+
+.assassinNames{
+  text-align: center;
+  color: darkred;
+  font-size: 50px;
+}
+
+.assassinQuotes{
+  margin: auto;
+  left: 0px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+
+
+.assassinBirths{
+  text-align: center;
+  font-size: 40px;
+  
+  
+
+}
+
+.assassinDeaths{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.assassinCountries{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.new-assassin-form{
+  color: whitesmoke;
+  position: relative;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.assassin-edit-form{
+  color: whitesmoke;
+  position: relative;
+  font-size: 35px;
+  padding: 10px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  border: solid 3px darkred;
+  border-radius: 2px;
+  background-color: transparent;
+  font-family:'Assassin$';
+  font-size: 33px;
+  color: whitesmoke;
+
+}
+
+input[type=submit]{
+  width: 50%;
+  background-color: transparent;
+  font-size: 33px;
+}
+
+
+.labelName{
+  padding: 20px;
+}
+
+.labelQuote{
+  padding:20px;
+}
+
+.labelBirth{
+padding: 20px;
+}
+
+.labelDeath{
+padding: 20px;
+}
+
+.labelCountry{
+padding: 20px;
+}
+
+.editFormTitle{
+  font-size: 60px;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  text-decoration: none;
+} 
+
