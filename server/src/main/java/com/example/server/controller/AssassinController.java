@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/assassin")
-// http://localhost:8080/mexican
+
 public class AssassinController {
     @Autowired
     AssassinService assassinService;
